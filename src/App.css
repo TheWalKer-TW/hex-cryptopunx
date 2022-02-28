@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-image: url("./assets/hexbackground.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+section{
+    margin-bottom: 5rem !important;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    width: 25%;
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem;
+}
+.form-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form-section div img{
+    width: 80%;
+    border-radius: 1rem;
+}
+.form-section span,
+.form-section div,
+.form-section form{
+    padding-bottom: 1.5rem;
+}
+.form-section span{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mint-amount-counter,
+.submit-amount_to_mint{
+    padding: 0.25rem;
+}
+.mint-amount-counter{
+    margin-bottom: 0.8rem;
+    width: 30%;
+    height: 2.25rem;
+}
+.submit-amount_to_mint{
+    width: 75%;
+    height: 4rem;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 97.5%;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 2rem;
+}
+.text-div,
+.preview-div{
+    width: 50%;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.text-section p{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.preview-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.preview-div img{
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
