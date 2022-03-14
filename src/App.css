@@ -8,8 +8,8 @@
 body {
     background-image: url("./assets/hexbackground.png");
     background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 body::-webkit-scrollbar {
@@ -50,7 +50,7 @@ h1{
     justify-content: center;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
-    width: 25%;
+    width: 35%;
     border-radius: 1rem;
     padding: 2rem 1rem 1rem;
 }
@@ -94,11 +94,13 @@ h1{
 .submit-amount_to_mint{
     width: 75%;
     height: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .text-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 97.5%;
@@ -109,7 +111,7 @@ h1{
 }
 .text-div,
 .preview-div{
-    width: 50%;
+    width: 80%;
 }
 .text-div{
     display: flex;
@@ -132,6 +134,127 @@ h1{
 }
 .preview-div img{
     border-radius: 1rem;
+    height: 8rem;
+}
+
+/* Mobile ------------------------------------------ */
+
+.container_M{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_M{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.h1_M{
+    color: white;
+    font-size: 3rem;
+}
+
+.form-section_M{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    width: 75%;
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem;
+}
+.form-section_M div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form-section_M div img{
+    width: 80%;
+    border-radius: 1rem;
+}
+.form-section_M span,
+.form-section_M div,
+.form-section_M form{
+    padding-bottom: 1.5rem;
+}
+.form-section_M span{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.form-section_M form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mint-amount-counter_M,
+.submit-amount_to_mint_M{
+    padding: 0.25rem;
+}
+.mint-amount-counter_M{
+    margin-bottom: 0.8rem;
+    width: 30%;
+    height: 2.25rem;
+}
+.submit-amount_to_mint_M{
+    width: 75%;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-section_M{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 1rem;
+}
+.text-div_M,
+.preview-div_M{
+    width: 95%;
+}
+.text-div_M{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.text-section_M p{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.preview-div_M{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.preview-div_M img{
+    border-radius: 1rem;
+    height: 12rem;
 }
 
 
