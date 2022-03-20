@@ -7,14 +7,14 @@ const SocialMedia = {
             id: 1,
             name: 'TWITTER',
             icon: faTwitter,
-            url: 'https://twitter.com/PowerSurgeNFT',
+            url: 'https://twitter.com/Cryptopunx_nft?t=TiNNlOZ_NLyOaohlGaP_sQ&s=09',
             iconType: 'fontawesome'
         },
         {
             id: 2,
             name: 'DISCORD',
             icon: faDiscord,
-            url: 'https://discord.gg/7HCXZWHNw2',
+            url: 'https://discord.gg/N3faASk4mn',
             iconType: 'fontawesome'
         },
         {
