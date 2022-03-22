@@ -21,14 +21,14 @@ const SocialMedia = {
             id: 3,
             name: 'OPENSEA',
             icon: Opensea,
-            url: 'https://opensea.io/collection/powersurgenft',
+            url: 'https://opensea.io/collection/cryptopunx-nft',
             iconType: 'svg'
         },
         {
             id: 4,
             name: 'ETHERSCAN',
             icon: Etherscan,
-            url: 'https://opensea.io/collection/powersurgenft',
+            url: 'https://etherscan.io/address/0xdc948c97c2f37f85a32c2761b85af1a5951ace66',
             iconType: 'svg'
         }
     ]
